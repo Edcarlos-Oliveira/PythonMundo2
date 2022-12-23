@@ -6,9 +6,8 @@ print('=' * 34)
 print('Quem marcar \033[31m3\033[m pontos primeiro, vence o jogo.')
 from random import randint
 from time import sleep
-rodada = 0
-cont1 = 0
-cont2 = 0
+rodada = cont1 = cont2 = 0
+
 while rodada < 3:
     while True:
         comp = randint(1, 3)
